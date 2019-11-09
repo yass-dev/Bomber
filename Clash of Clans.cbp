@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Clash of Clans" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Clash of Clans" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../../../../../../../Program Files (x86)/CodeBlocks/SFML/SFML-2.5.1/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lsfml-graphics" />
+					<Add option="-lsfml-window" />
+					<Add option="-lsfml-main" />
+					<Add option="-lsfml-system" />
+					<Add option="-static-libgcc" />
+					<Add directory="../../../../../../../Program Files (x86)/CodeBlocks/SFML/SFML-2.5.1/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Clash of Clans" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="../../../../../../../Program Files (x86)/CodeBlocks/SFML/SFML-2.5.1/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="../../../../../../../Program Files (x86)/CodeBlocks/SFML/SFML-2.5.1/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lsfml-graphics" />
+			<Add option="-lsfml-window" />
+			<Add option="-lsfml-main" />
+			<Add option="-lsfml-system" />
+			<Add directory="../../../../../../../Program Files (x86)/CodeBlocks/SFML/SFML-2.5.1/lib" />
+		</Linker>
+		<Unit filename="block.cpp" />
+		<Unit filename="block.h" />
+		<Unit filename="bomb.cpp" />
+		<Unit filename="bomb.h" />
+		<Unit filename="bombmanager.cpp" />
+		<Unit filename="bombmanager.h" />
+		<Unit filename="collisionmanager.cpp" />
+		<Unit filename="collisionmanager.h" />
+		<Unit filename="explosion.cpp" />
+		<Unit filename="explosion.h" />
+		<Unit filename="game.cpp" />
+		<Unit filename="game.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="map.cpp" />
+		<Unit filename="map.h" />
+		<Unit filename="player.cpp" />
+		<Unit filename="player.h" />
+		<Unit filename="reward.cpp" />
+		<Unit filename="reward.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
